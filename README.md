@@ -21,3 +21,22 @@ En una terminal, entrar a la carpeta frontend:
 cd frontend
 npm install
 npm run dev
+```
+
+Abre en el navegador la dirección que muestre Vite.
+
+## Ejecutar el backend
+
+En otra terminal, desde la carpeta principal del proyecto:
+
+```text
+cd backend
+npm install
+npm run dev
+```
+
+El backend requiere variables de entorno. Sus nombres aparecen en `backend/.env.example`.
+
+## Estado de la jornada 1
+
+El frontend está preparado y compila correctamente. Queda pendiente comprobar la consulta completa, las pruebas de aceptación y las evidencias cuando la conexión del backend esté disponible.
